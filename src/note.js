@@ -30,7 +30,7 @@ function Note()
             note:not,
             filename:fname
         }
-        axios.get("http://localhost:2006/findnote/"+fname+"/"+uname).then((res)=>{
+        axios.get("https://behind-3e79.onrender.com/findnote/"+fname+"/"+uname).then((res)=>{
             if(res.data.msg=="found")
             {
                 alert("file name already exist")
@@ -41,7 +41,7 @@ function Note()
 if(a==true)
 {
     let fil=localStorage.getItem("fileid");
-    axios.put("http://localhost:2006/update/"+not+"/"+fil).then((re)=>{
+    axios.put("https://behind-3e79.onrender.com/update/"+not+"/"+fil).then((re)=>{
         alert(re.data.msg)
     })
 }
@@ -50,7 +50,7 @@ else{
 }
             }
             else{
-axios.post("http://localhost:2006/postnote",{notes}).then((rep)=>{
+axios.post("https://behind-3e79.onrender.com/postnote",{notes}).then((rep)=>{
     if(rep.data.msg=="success")
     {
         alert("saved")
