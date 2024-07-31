@@ -13,7 +13,7 @@ let user={
     password:upassword,
     email:umail
 }
-axios.get("http://localhost:2006/check/"+uname).then((resp)=>{
+axios.get("https://behind-3e79.onrender.com/check/"+uname).then((resp)=>{
 if(resp.data.msg=="found")
 {
     alert("already registered")
@@ -21,7 +21,7 @@ if(resp.data.msg=="found")
 
 }
 else{
-    axios.post("http://localhost:2006/register",{user}).then((res)=>{
+    axios.post("https://behind-3e79.onrender.com/register",{user}).then((res)=>{
         if(res.data.msg=="success")
         {
             alert("registered successfully")
