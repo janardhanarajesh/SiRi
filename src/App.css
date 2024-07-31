@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* #homeimg{
+  /* background-image: url(); */
+/* } * */
+
+#menu{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+
+}
+#submenu{
+  height: 50px;
+  width: 60%;
+  /* background-c
+  olor: red; */
+
+}
+.submenu{
+  height: 50px;
+  width: 33.33%;
+  float: left;
+  padding-top: 10px;
+text-shadow: 0.5px 0.5px 1px white,2px 2px 4px lightblue;
+}
+.submenu Link{
+font-size:100% ;
+}
+#reg{
+  height: 200px;
+  width: 40%;
+  background-color: rgba(205,250,240, 0.1);
+  box-shadow: 2px 2px 4px lightskyblue;
+   /* ,2px 2px 4px lightblue inset; */
+  margin-top: 100px;
+  padding-top: 10px;
+  border-radius: 10px;
+
+}
+#reg input{
+  margin-top: 15px;
+  width: 50%;
+  text-align: center;
+  height: 25px;
+}
+#reg input[type="submit"]{
+  background-color:rgba(205,250,240, 0.4);
+  border: none;
+  box-shadow: 2px 2px 2px cyan;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 90%;
+  cursor: pointer;
+}
+
+#log{
+  height: 200px;
+  width: 40%;
+  margin-top: 100px;
+  padding-top: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px lightcoral;
+  background-color:rgba(146, 230, 211, 0.171);
+}
+#log input{
+  height: 30px;
+  width: 65%;
+  margin-top: 15px;
+}
+#log input[type="submit"]{
+  background-color:rgba(146, 230, 211, 0.5) ;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px lightcoral;
+  cursor: pointer;
+}
+#home{
+  height:400px;
+  width: 100%;
+}
+#homeimg{
+  height: 100%;
+  width: 100%;
+background-image: url("../public/h.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+#not{
+  height:120%;
+  width: 100%;
+background-color: rgba(255, 100, 50, 0.9);
+}
+#note{
+  height:400px;
+  width: 97%;
+  margin-bottom: 30px;
+}
+/* #not input[type="submit"]{
+  float: right;
+} */
+#but{
+  height: 33%;
+  width: 40%;
+  float: right;
+}
+#fname{
+  float: left;
+}
+#logo{
+  float: left;
+  width: 20%;
+  color: white;
+  padding-top:10px ;
+  font-size: 120%;
+}
+#S{
+  color: red;
+}
+#R{
+  color: red;
+}
+#o{
+  width: 28%;
+  font-size: 80%;
+  margin-left: 5%;
+  background-color: orange;
+  box-shadow: 1px 1px 2px white;
+  border: none;
+  cursor: pointer;
+  height: 21px;
+
+}
+#n{
+  width: 28%;
+  font-size: 80%;
+  margin-left:5%;
+  height: 21px;
+  background-color: powderblue;
+  box-shadow: 1px 1px 2px white;
+  border: none;
+  cursor: pointer;
+}
+#b{
+  width: 28%;
+  font-size: 80%;
+  background-color: grey;
+  box-shadow: 1px 1px 2px white;
+  border: none;
+  cursor: pointer;
+  height: 21px;
+  color: white;
+  margin-left: 5%;
+  
+}
+#fname{
+  width: 40%;
+}
+
+span{
+  float:left;
+  margin-left: 10%;
+}
+#homeimg h1{
+  font-size: 100%;
+}
+#fil{
+  background-color: lightcyan;
+  height: 50px;
+
+}
+#fil button{
+  float: right;
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+  border: none;
+  margin-right: 5%;
+}
+
+#fil h3{
+  display: inline;
+}
+#lof{
+  height: 10%;
+  background-color: green;
+  color: white;
+  border:none;
+  height: 20px;
+  box-shadow: 1px 1px 2px whitesmoke;
+  cursor: pointer;
+}
+#credit{
+  height: 30px;
+  color: white;
+  background-color: black;
+  text-align: right;
+}
+#credit a{
+  color: white;
+}
