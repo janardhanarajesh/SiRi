@@ -12,7 +12,7 @@ const[fil,getfile]=useState([])
         }
         else{
             let user=localStorage.getItem("username")
-        axios.get("http://localhost:2006/getf/"+user).then((res)=>{
+        axios.get("https://behind-3e79.onrender.com/getf/"+user).then((res)=>{
 getfile(res.data.file)
         })
     }
@@ -25,7 +25,7 @@ localStorage.setItem("fileid",i)
 window.location.href="/note"
     }
     const del=(r)=>{
-axios.delete("http://localhost:2006/delnot/"+r).then((re)=>{
+axios.delete("https://behind-3e79.onrender.com/delnot/"+r).then((re)=>{
     alert(re.data.msg)
 })
     }
