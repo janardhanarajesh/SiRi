@@ -7,7 +7,7 @@ function Login()
         let uname=document.getElementById("uname").value;
         let upassword=document.getElementById("upassword").value;
         console.log(uname,upassword)
-        axios.get("http://localhost:2006/login/"+uname+"/"+upassword).then((res)=>{
+        axios.get("https://behind-3e79.onrender.com/login/"+uname+"/"+upassword).then((res)=>{
             if(res.data.msg=="found")
             {
                 alert("logged in as "+uname)
